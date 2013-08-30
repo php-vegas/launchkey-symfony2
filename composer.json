@@ -1,0 +1,19 @@
+{
+    "name": "lv-php/launchkey-client-bundle",
+    "description": "Security bundle using LaunchKey",
+    "authors": [
+        {
+            "name": "Brian Feaver",
+            "email": "brian.feaver@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": ">=2.1",
+        "symfony/security-bundle": ">=2.1",
+        "launchkey/launchkey": "*@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "phake/phake": "*@alpha"
+    }
+}
